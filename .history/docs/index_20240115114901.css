@@ -1,5 +1,6 @@
 .banner {
     text-align: center;
+    background-color: #f5f5f5;
 }
 
 #nav {
@@ -8,8 +9,4 @@
 
 #cta {
     text-align: center;
-}
-
-header {
-    background-color: #f5f5f5;
 }

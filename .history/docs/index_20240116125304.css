@@ -1,0 +1,19 @@
+.banner {
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+}
+
+#cta {
+    text-align: center;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+.btn-danger {
+    background-color: green;
+}

@@ -1,0 +1,180 @@
+.banner {
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    font-size: large;
+}
+
+#nav a {
+    color: #eb5050 !important;
+}
+
+#nav a:hover {
+    color: #C74444 !important;
+}
+
+#cta {
+    text-align: center;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+.btn-primary {
+    background-color: #eb5050 !important;
+    border-color: #eb5050 !important;
+    padding: .5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 1.25rem !important;
+}
+
+.btn-primary:hover {
+    background-color: #C74444 !important;
+    border-color: #C74444 !important;
+    padding: .5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 1.25rem !important;
+}
+
+
+/* Mobile properties */
+
+@media (max-width: 990px) {
+    .btn-primary {
+        padding: .35rem !important;
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+        font-size: .90rem !important;
+    }
+
+    .btn-primary:hover {
+        padding: .35rem !important;
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+        font-size: .90rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #nav {
+        display: none;
+    }
+
+    #cta {
+        display: none;
+    }
+}
+
+/* Style for the navigation */
+
+/* Adds box shadow and margin bottom to the navigation */
+nav {
+    box-shadow: 0 2px 4px 0 gray;
+    margin-bottom: 0;
+}
+
+/* Sets font weight for the navigation links */
+.nav-link {
+    font-weight: 800;
+}
+
+/* Adjusts font size for the navigation links on smaller screens */
+@media (max-width: 767px) {
+    .nav-link {
+        font-size: small;
+    }
+}
+
+/* Styles for the navbar toggler */
+.navbar-toggler {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    position: relative;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the toggler icon */
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #d3531a;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* Styles when the navigation is clicked */
+.navbar-toggler .top-bar {
+    top: inherit;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    top: inherit;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    top: inherit;
+    transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+.navbar-toggler.collapsed .top-bar {
+    position: absolute;
+    top: 0px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    position: absolute;
+    top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of the three lines when the navbar is collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background: linear-gradient(90deg, rgba(0,128,0,1) 45%, rgba(2555,255,255,1) 100%);
+}
+
+/* Sets the color of the navbar brand */
+.navbar-brand {
+    color: green;
+}

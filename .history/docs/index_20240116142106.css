@@ -1,5 +1,20 @@
 .banner {
     text-align: center;
+    background-color: #C74444;
+}
+
+#nav {
+    text-align: center !important;
+    font-size: large;
+    background-color: #C74444;
+}
+
+#nav a {
+    color: #eb5050 !important;
+}
+
+#nav a:hover {
+    color: #C74444 !important;
 }
 
 #cta {
@@ -28,6 +43,7 @@ header {
     font-size: 1.25rem !important;
 }
 
+
 /* Mobile properties */
 
 @media (max-width: 990px) {
@@ -48,11 +64,12 @@ header {
 
 @media (max-width: 767px) {
 
+    #nav {
+        display: none;
+    }
+
     #cta {
         display: none;
     }
 }
 
-.main-content {
-    background-color: blue;
-}

@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+#nav {
+    text-align: center;
+}
+
 #cta {
     text-align: center;
 }
@@ -28,9 +32,10 @@ header {
     font-size: 1.25rem !important;
 }
 
+
 /* Mobile properties */
 
-@media (max-width: 990px) {
+@media (max-width: 986px) {
     .btn-primary {
         padding: .35rem !important;
         padding-left: .7rem !important;
@@ -47,12 +52,21 @@ header {
 }
 
 @media (max-width: 767px) {
+    .banner {
 
-    #cta {
-        display: none;
     }
-}
 
-.main-content {
-    background-color: blue;
+    .btn-primary {
+        padding: .25rem !important;
+        padding-left: .5rem !important;
+        padding-right: .5rem !important;
+        font-size: .60rem !important;
+    }
+
+    .btn-primary:hover {
+        padding: .5rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        font-size: 1.25rem !important;
+    }
 }

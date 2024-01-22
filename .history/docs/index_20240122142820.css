@@ -17,10 +17,10 @@ header {
 .btn-primary {
     background-color: #eb5050;
     border-color: #eb5050;
-    padding: .5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 1.55em;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.55rem;
 }
 
 .btn-primary:hover {
@@ -28,17 +28,12 @@ header {
     border-color: #C74444;
 }
 
-main {
-    margin-right: 13em;
-    margin-left: 13em;
-}
-
-.greeting {
+.main-content {
 
 }
 
 #quality-tag {
-    margin-top: 10em;
+    margin-top: 7em;
     text-align: center;
     font-size: 1.3em;
     letter-spacing: .2em;
@@ -56,7 +51,6 @@ main {
 .mid-buttons {
     margin-top: 1em;
     text-align: center;
-    margin-bottom: 15em;
 }
 
 .left-button {
@@ -78,36 +72,21 @@ main {
     color: #1D344F;
 }
 
-.services {
-    margin-top: 10em;
-}
-
-.service-text {
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 3em;
-}
-
-.service-icons {
-    width: 10em;
-    height: 10em;
-}
-
 /* Mobile properties */
 
 @media (max-width: 990px) {
     .btn-primary {
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
     }
 
     .btn-primary:hover {
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
     }
 }
 
@@ -118,7 +97,7 @@ main {
     }
 
     #quality-tag {
-        margin-top: 5em;
+        margin-top: 7em;
         text-align: center;
         font-size: 0.9em;
         letter-spacing: .2em;
@@ -140,10 +119,10 @@ main {
 
     .left-button {
         background-color: #2A4B73;
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
     }
 
     .left-button:hover {
@@ -154,10 +133,10 @@ main {
         background-color: transparent;
         border-color: #2A4B73;
         color:#2A4B73;
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
     }
 
     .right-button:hover {

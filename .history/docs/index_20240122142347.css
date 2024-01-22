@@ -17,10 +17,10 @@ header {
 .btn-primary {
     background-color: #eb5050;
     border-color: #eb5050;
-    padding: .5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 1.55em;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.55rem;
 }
 
 .btn-primary:hover {
@@ -28,17 +28,30 @@ header {
     border-color: #C74444;
 }
 
-main {
-    margin-right: 13em;
-    margin-left: 13em;
+/* Mobile properties */
+
+@media (max-width: 990px) {
+    .btn-primary {
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
+    }
+
+    .btn-primary:hover {
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
+    }
 }
 
-.greeting {
+.main-content {
 
 }
 
 #quality-tag {
-    margin-top: 10em;
+    margin-top: 7em;
     text-align: center;
     font-size: 1.3em;
     letter-spacing: .2em;
@@ -56,7 +69,6 @@ main {
 .mid-buttons {
     margin-top: 1em;
     text-align: center;
-    margin-bottom: 15em;
 }
 
 .left-button {
@@ -78,39 +90,6 @@ main {
     color: #1D344F;
 }
 
-.services {
-    margin-top: 10em;
-}
-
-.service-text {
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 3em;
-}
-
-.service-icons {
-    width: 10em;
-    height: 10em;
-}
-
-/* Mobile properties */
-
-@media (max-width: 990px) {
-    .btn-primary {
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
-    }
-
-    .btn-primary:hover {
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
-    }
-}
-
 @media (max-width: 767px) {
 
     #cta {
@@ -118,9 +97,9 @@ main {
     }
 
     #quality-tag {
-        margin-top: 5em;
+        margin-top: 7em;
         text-align: center;
-        font-size: 0.9em;
+        font-size: 1em;
         letter-spacing: .2em;
         color:#C74444;
     }
@@ -128,7 +107,7 @@ main {
     #tag-line {
         margin-top: 0.5em;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.8em;
         letter-spacing: .05em;
         color: #2A4B73;
     }
@@ -140,10 +119,6 @@ main {
 
     .left-button {
         background-color: #2A4B73;
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
     }
 
     .left-button:hover {
@@ -153,11 +128,7 @@ main {
     .right-button {
         background-color: transparent;
         border-color: #2A4B73;
-        color:#2A4B73;
-        padding: .35em;
-        padding-left: .7em;
-        padding-right: .7em;
-        font-size: .90em;
+        color:#2A4B73
     }
 
     .right-button:hover {

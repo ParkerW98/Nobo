@@ -28,17 +28,12 @@ header {
     border-color: #C74444;
 }
 
-main {
-    margin-right: 13em;
-    margin-left: 13em;
-}
-
 .greeting {
 
 }
 
 #quality-tag {
-    margin-top: 10em;
+    margin-top: 7em;
     text-align: center;
     font-size: 1.3em;
     letter-spacing: .2em;
@@ -56,7 +51,6 @@ main {
 .mid-buttons {
     margin-top: 1em;
     text-align: center;
-    margin-bottom: 15em;
 }
 
 .left-button {
@@ -80,17 +74,6 @@ main {
 
 .services {
     margin-top: 10em;
-}
-
-.service-text {
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 3em;
-}
-
-.service-icons {
-    width: 10em;
-    height: 10em;
 }
 
 /* Mobile properties */

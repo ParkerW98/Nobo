@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    text-align: center;
+}
+
+#cta {
+    text-align: center;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+.btn-primary {
+    background-color: #eb5050;
+    border-color: #eb5050;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.55rem;
+}
+
+.btn-primary:hover {
+    background-color: #C74444;
+    border-color: #C74444;
+}
+
+/* Mobile properties */
+
+@media (max-width: 990px) {
+    .btn-primary {
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
+    }
+
+    .btn-primary:hover {
+        padding: .35rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        font-size: .90rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #cta {
+        display: none;
+    }
+}
+
+.main-content {
+
+}
+
+#quality-tag {
+    margin-top: 7em;
+    margin-right: 1em;
+    margin-left: 1em;
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: .2em;
+    color:#C74444;
+}
+
+#tag-line {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 2.3em;
+    letter-spacing: .05em;
+    color: #2A4B73;
+}
+
+.mid-buttons {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.left-button {
+    background-color: #2A4B73;
+}
+
+.left-button:hover {
+    background-color: #1D344F;
+}
+
+.right-button {
+    background-color: transparent;
+    border-color: #2A4B73;
+    color:#2A4B73
+}
+
+.right-button:hover {
+    background-color: #f5f5f5;
+    color: #1D344F;
+}

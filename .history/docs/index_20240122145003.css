@@ -28,11 +28,6 @@ header {
     border-color: #C74444;
 }
 
-main {
-    margin-right: 13em;
-    margin-left: 13em;
-}
-
 .greeting {
 
 }
@@ -83,14 +78,9 @@ main {
 }
 
 .service-text {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 15em;
+    margin-right: 15em;
     margin-bottom: 3em;
-}
-
-.service-icons {
-    width: 10em;
-    height: 10em;
 }
 
 /* Mobile properties */

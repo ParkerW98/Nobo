@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(./assets/Anton/Anton-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+.banner {
+    text-align: center;
+}
+
+#cta {
+    text-align: center;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+.btn-primary {
+    background-color: #eb5050 !important;
+    border-color: #eb5050 !important;
+    padding: .5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 1.25rem !important;
+}
+
+.btn-primary:hover {
+    background-color: #C74444 !important;
+    border-color: #C74444 !important;
+    padding: .5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-size: 1.25rem !important;
+}
+
+/* Mobile properties */
+
+@media (max-width: 990px) {
+    .btn-primary {
+        padding: .35rem !important;
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+        font-size: .90rem !important;
+    }
+
+    .btn-primary:hover {
+        padding: .35rem !important;
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+        font-size: .90rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #cta {
+        display: none;
+    }
+}
+
+.main-content {
+    text-align: center;
+
+}
+
+#nobo-title {
+    font-family: Anton !important;
+}

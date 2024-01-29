@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-header {
+.logo-title {
     background-color: #f5f5f5;
 }
 
@@ -34,11 +34,16 @@ main {
 }
 
 .greeting {
-
+    height: 100vh;
+    background-image: url(../docs/assets/top-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10em;
 }
 
 #quality-tag {
-    margin-top: 10em;
+    padding-top: 15em;
     text-align: center;
     font-size: 1.3em;
     letter-spacing: .2em;
@@ -56,7 +61,6 @@ main {
 .mid-buttons {
     margin-top: 1em;
     text-align: center;
-    margin-bottom: 15em;
 }
 
 .left-button {
@@ -78,19 +82,34 @@ main {
     color: #1D344F;
 }
 
+.services-title {
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: .2em;
+    color: #2A4B73;
+}
+
 .services {
     margin-top: 10em;
 }
 
-.service-text {
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 3em;
+.service-card {
+    margin-bottom: 10em;
 }
 
-.service-icons {
-    width: 10em;
-    height: 10em;
+.service-img {
+    background-color: #1D344F;
+}
+
+.service-title {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    color: #C74444;
+}
+
+.service-text {
+    font-size: 1.2em;
+    color: #2A4B73;
 }
 
 /* Mobile properties */

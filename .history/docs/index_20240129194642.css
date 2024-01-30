@@ -29,8 +29,8 @@ body {
 }
 
 main {
-    margin-right: 13em;
-    margin-left: 13em;
+    margin-right: 14em;
+    margin-left: 14em;
     overflow-x: hidden;
 }
 
@@ -98,8 +98,7 @@ main {
 
 .service-card {
     margin-bottom: 10em;
-    margin-right: 1.5em;
-    margin-left: 1.5em;
+    margin-right: 3em;
 }
 
 .service-img {

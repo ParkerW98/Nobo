@@ -6,13 +6,12 @@ body {
     text-align: center;
 }
 
-.banner-img {
-    width: auto;
-
-}
-
 #cta {
     text-align: center;
+}
+
+.logo-title {
+    background-color: #f5f5f5;
 }
 
 .btn-primary {
@@ -119,17 +118,9 @@ main {
 }
 
 #owner-tag {
-    margin-top: 2em;
-    margin-bottom: 2em;
     text-align: center;
-    font-size: 3.5em;
-    letter-spacing: .1em;
+    font-size: 5em;
 }
-
-.carousel {
-    background-color: #1D344F;
-}
-
 
 /* Mobile properties */
 

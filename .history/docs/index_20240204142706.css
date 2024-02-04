@@ -128,8 +128,12 @@ main {
 
 .carousel {
     background-color: #1D344F;
+    object-fit: cover;
 }
 
+.cara-img {
+    object-fit: cover;
+}
 
 /* Mobile properties */
 

@@ -130,6 +130,9 @@ main {
     background-color: #1D344F;
 }
 
+.cara-img {
+    object-fit: cover;
+}
 
 /* Mobile properties */
 

@@ -126,11 +126,6 @@ main {
     letter-spacing: .1em;
 }
 
-.carousel {
-    background-color: #1D344F;
-}
-
-
 /* Mobile properties */
 
 @media (max-width: 1050px) {

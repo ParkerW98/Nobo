@@ -122,14 +122,9 @@ main {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 4em;
     letter-spacing: .1em;
 }
-
-.carousel {
-    background-color: #1D344F;
-}
-
 
 /* Mobile properties */
 

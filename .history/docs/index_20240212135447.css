@@ -49,8 +49,8 @@ body {
 }
 
 main {
-    margin-right: 12em;
-    margin-left: 12em;
+    margin-right: 13em;
+    margin-left: 13em;
     overflow-x: hidden;
     margin-top: 10em;
 }
@@ -143,30 +143,22 @@ main {
     text-align: center;
     font-size: 3.5em;
     letter-spacing: .1em;
-    color: #C74444;
-}
-
-.cara-div {
-    width: 70%;
-}
-
-.carousel-header {
-    text-align: center;
-    margin-top: 1em;
-    font-size: 4em;
-    color: #2A4B73;
 }
 
 .carousel-section {
-    margin-top: 5em;
+    margin-top: 10em;
+}
+
+.carousel-item {
+    
+}
+
+.cara-img {
+    
 }
 
 .carousel {
     background-color: #1D344F;
-}
-
-.cara-img {
-
 }
 
 

@@ -37,11 +37,11 @@
             <a id="top"></a>
         <div class="container-fluid logo-title">
             <div class="row">
-                <div class="col-sm align-self-center" id="banner-contact">
+                <div class="col-md-3" id="banner-contact">
                     <p><img src="../docs/assets/telephone-fill.svg" alt="telephone icon" class="contact-icon"><a href="tel:+4253596405">(425) 359-6405</a></p>
                     <p><img src="../docs/assets/envelope-fill.svg" alt="email icon" class="contact-icon"><a href="mailto:nobolandscpaing@gmail.com">nobolandscpaing@gmail.com</a></p>
                 </div>
-                <div class="col-md-7 align-self-center">
+                <div class="col-md-6 align-self-center">
                     <div class="banner" id="top-page">
                         <a>
                             <img
@@ -52,8 +52,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm align-self-center" id="cta">
-                    <a class="btn btn-primary" href="#book-now" role="button">BOOK NOW</a>
+                <div class="col-md-3 align-self-center" id="cta">
+                    <a class="btn btn-primary" href="#contact-us-content" role="button">BOOK NOW</a>
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@
                 <h2 id="tag-line">Landscaping done the NOBO way<br>
                                     the way it should be</h2>
                 <div class="mid-buttons">
-                    <a class="btn btn-secondary left-button" href="#book-now" role="button">GET A QUOTE</a>
-                    <a class="btn btn-secondary right-button" href="#book-now" role="button">OUR WORK</a>
+                    <a class="btn btn-secondary left-button" href="#contact-us-content" role="button">GET A QUOTE</a>
+                    <a class="btn btn-secondary right-button" href="#our-work-content" role="button">OUR WORK</a>
                 </div>
             </div>
         </header>
@@ -101,8 +101,8 @@
                             <img src="assets/services-pictures/3.svg" class="card-img-top service-img" alt="An aerating lawn tool being used on grass">
                             <div class="card-body">
                                 <h5 class="card-title service-title">Thatching and Aerating</h5>
-                                <p class="card-text service-text">Boost your lawn's vitality with our Thatching and Aeration services.
-                                    Thatching removes excess organic buildup, while Aerating enhances soil aeration for
+                                <p class="card-text service-text">Boost your lawn's vitality with our thatching and teration services.
+                                    Thatching removes excess organic buildup, while aerating enhances soil aeration for
                                     optimal nutrient absorption. Together, they promote a healthier lawn.</p>
                             </div>
                         </div>
@@ -143,14 +143,14 @@
             </div>
 
             <div class="container-fluid">
-            <hr/>
                 <h1 id="owner-tag">Miles Kendrick - Owner and Operator</h1>
-            <hr/>
             </div>
 
             <a id="our-work-content"></a>
+
+            <h1 class="carousel-header">Our Work!</h1>
+            <hr/>
             <div class="container-fluid cara-div">
-                <h1 class="carousel-header">Our Work!</h1>
                 <div id="carousel-ind" class="carousel slide carousel-section">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -199,8 +199,9 @@
                 </div>
             </div>
             <a id="contact-us-content"></a>
-            <div class="container mt-5">
-                <h1>Contact Us!</h1>
+            <h1 id="contact-header">Contact Us!</h1>
+                <hr/>
+            <div class="container mt-5" id="contact-content">
                 <form class="row g-3" action="https://formsubmit.co/NEEDEMAIL@EMAIL.COM" method="POST">
                     <div class="row g-3">
                         <div class="col-md-6">
@@ -217,7 +218,7 @@
                         </div>
                         <div class="col-md-4">
                             <label for="phoneNumber" class="form-label">Phone Number</label>
-                            <input type="text" class="form-control" id="phoneNumber" placeholder="(425) 555-1234">
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="(888) 888-8888">
                         </div>
                         <label for="services" class="form-label">Please select the services you are interested in:</label>
                         <div class="col-md-6">
@@ -254,7 +255,7 @@
                         </div>
                         <div class="col-md-12">
                             <label for="comments" class="form-label">Details</label>
-                            <textarea class="form-control" id="comments" rows="3" placeholder="Please provide descriptions of the Services you want. Yard size, house square footage, driveway size, etc" required></textarea>
+                            <textarea class="form-control" id="comments" rows="3" placeholder="Please provide descriptions of the services you want. Yard size, house square footage, driveway size, etc" required></textarea>
                         </div>
                         <div class="col-md-12">
                             <button type="submit" class="btn btn-primary">Submit</button>

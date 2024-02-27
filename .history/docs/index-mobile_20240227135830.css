@@ -112,39 +112,10 @@
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 420px) {
 
-    .greeting {
-        padding-top: 21em;
-        padding-bottom: 21em;;
-    }
+    
 
-    #quality-tag{
-        font-size: .8em;
-    }
 
-    #tag-line {
-        font-size: 1.3em;
-    }
-
-    .services-header {
-    margin-top: 3em;
-    }
-
-    .service-card {
-        width: 359px;
-    }
-
-    #owner-tag {
-        font-size: 1.5em;
-    }
-
-    .carousel-header {
-        font-size: 1.7em;
-    }
-
-    .cara-div {
-        width: 100%;
-    }
 
 }

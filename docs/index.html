@@ -32,6 +32,10 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     </head>
         <header>
             <a id="top"></a>
@@ -58,9 +62,9 @@
             </div>
         </div>
             <div class="greeting">
-                <h1 id="quality-tag">QUALITY THAT IS GUARANTEED</h1>
-                <h2 id="tag-line">Landscaping done the NOBO way<br>
-                                    the way it should be</h2>
+                <h1 id="quality-tag">NOBO LANDSCAPING</h1>
+                <h2 id="tag-line">Imagine your outdoor space<br>
+                                    and we'll create it.</h2>
                 <div class="mid-buttons">
                     <a class="btn btn-secondary left-button" href="#contact-us-content" role="button">GET A QUOTE</a>
                     <a class="btn btn-secondary right-button" href="#our-work-content" role="button">OUR WORK</a>
@@ -113,7 +117,7 @@
                         <div class="card h-100 border-dark" >
                             <img src="assets/services-pictures/4.svg" class="card-img-top service-img" alt="A fenced yard with a green waste bin and a rake next to a pile of mulch.">
                             <div class="card-body">
-                                <h5 class="card-title service-title">Mulching</h5>
+                                <h5 class="card-title service-title">Mulching/Beauty Bark</h5>
                                 <p class="card-text service-text">Elevate your garden's aesthetics and health with our mulching services.
                                     Mulch provides insulation, moisture retention, and weed suppression, contributing to a flourishing landscape.</p>
                             </div>
@@ -148,7 +152,7 @@
 
             <a id="our-work-content"></a>
 
-            <h1 class="carousel-header">Our Work!</h1>
+            <!--<h1 class="carousel-header">Our Work!</h1>
             <hr/>
             <div class="container-fluid cara-div">
                 <div id="carousel-ind" class="carousel slide carousel-section">
@@ -197,27 +201,31 @@
                         <button type="button" data-bs-target="#carousel-ind" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <a id="contact-us-content"></a>
             <h1 id="contact-header">Contact Us!</h1>
                 <hr/>
             <div class="container mt-5" id="contact-content">
-                <form class="row g-3" action="https://formsubmit.co/NEEDEMAIL@EMAIL.COM" method="POST">
+                <form class="row g-3" action="https://formsubmit.co/313bf92bbb3d78410438fcfc31a69d2b" method="POST">
                     <div class="row g-3">
                         <div class="col-md-6">
+                            <label for="fullname" class="form-label">Full Name*</label>
+                            <input type="text" class="form-control" id="fullname" required>
+                        </div>
+                        <!--<div class="col-md-6">
                             <label for="firstName" class="form-label">First Name</label>
                             <input type="text" class="form-control" id="firstName" required>
                         </div>
                         <div class="col-md-6">
                             <label for="lastName" class="form-label">Last Name</label>
                             <input type="text" class="form-control" id="lastName" required>
-                        </div>
+                        </div>-->
                         <div class="col-md-8">
-                            <label for="emailInfo" class="form-label">Email</label>
+                            <label for="emailInfo" class="form-label">Email*</label>
                             <input type="email" class="form-control" id="emailInfo" required>
                         </div>
                         <div class="col-md-4">
-                            <label for="phoneNumber" class="form-label">Phone Number</label>
+                            <label for="phoneNumber" class="form-label">Phone Number*</label>
                             <input type="text" class="form-control" id="phoneNumber" placeholder="(888) 888-8888">
                         </div>
                         <label for="services" class="form-label">Please select the services you are interested in:</label>
@@ -241,7 +249,7 @@
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <input type="checkbox" class="form-check-input me-1" value="" id="mulching">
-                                    <label for="mulching" class="form-check-label">Mulching</label>
+                                    <label for="mulching" class="form-check-label">Mulching/Beauty Bark</label>
                                 </li>
                                 <li class="list-group-item">
                                     <input type="checkbox" class="form-check-input me-1" value="" id="gutterCleaning">
@@ -254,8 +262,8 @@
                             </ul>
                         </div>
                         <div class="col-md-12">
-                            <label for="comments" class="form-label">Details</label>
-                            <textarea class="form-control" id="comments" rows="3" placeholder="Please provide descriptions of the services you want. Yard size, house square footage, driveway size, etc" required></textarea>
+                            <label for="comments" class="form-label">Details*</label>
+                            <textarea class="form-control" id="comments" rows="3" placeholder="Please provide descriptions of the services you would like. (City, yard size, house square footage, driveway size, etc)" required></textarea>
                         </div>
                         <div class="col-md-12">
                             <button type="submit" class="btn" id="contact-button">Submit</button>
@@ -269,14 +277,14 @@
                 <div class="row g-3">
                     <div class="col-md-6">
                         <h5>Nobo Landscaping</h5>
-                        <p>Nobo landscaping is a small family run business. We look forward to serving our community through our hard work and dedication. Please feel free to contact us, we look forward to working for you!</p>
+                        <p>Nobo Landscaping isn't just a name, it's a philosophy. A family owned business dedicated to excellent service at an affordable price.</p>
                     </div>
                     <div class="col-md-3">
                         <h5>Links</h5>
                         <ul>
                             <li><a href="#">Back to top</a></li>
                             <li><a href="#services-content">Services</a></li>
-                            <li><a href="#our-work-content">Our Work</a></li>
+                            <!--<li><a href="#our-work-content">Our Work</a></li>-->
                             <li><a href="#contact-us-content">Contact Us</a></li>
                         </ul>
                     </div>
@@ -286,11 +294,11 @@
                             <tbody>
                                 <tr>
                                     <td>Mon - Fri:</td>
-                                    <td>8am - 4pm</td>
+                                    <td>7am - 5pm</td>
                                 </tr>
                                 <tr>
                                     <td>Sat - Sun:</td>
-                                    <td>10am - 3pm</td>
+                                    <td>8am - 6pm</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -299,8 +307,8 @@
                 <hr/>
                 <div class="row g-3" id="footers-foot">
                     <div class="col-md-3">
-                        <p><a href="https://facebook.com"><img src="../docs/assets/facebook.svg" alt="facebook icon" class="contact-icon"></a>
-                            <a href="https://instagram.com"><img src="../docs/assets/instagram.svg" alt="instagram icon" class="contact-icon"></a></p>
+                        <p><a href="https://facebook.com/nobolandscaping1"><img src="../docs/assets/facebook.svg" alt="facebook icon" class="contact-icon"></a>
+                            <a href="#"><img src="../docs/assets/instagram.svg" alt="instagram icon" class="contact-icon"></a></p>
                     </div>
                     <div class="col-md-6" id="copyright-text">
                         <h4>© 2024 Copyright: <a href="https://nobolandscpaing.com">Nobo Landscaping</a></h4>

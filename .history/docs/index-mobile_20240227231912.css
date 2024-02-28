@@ -1,0 +1,145 @@
+/* Tablet properties */
+
+@media (max-width: 1300px) {
+    .btn-primary {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .90em;
+    }
+
+    .btn-primary:hover {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .90em;
+    }
+
+    #banner-contact {
+        font-size: .5em;
+    }
+
+    .greeting {
+        padding-top: 13em;
+        padding-bottom: 13em;
+    }
+
+    .services {
+        margin-top: 3em;
+    }
+
+    .services-header {
+        font-size: 1.5em;
+    }
+
+    .service-card {
+        margin-bottom: 3em;
+    }
+}
+
+@media (max-width: 767px) {
+
+    main {
+        margin: 0em;
+    }
+
+    #cta, #banner-contact {
+        display: none;
+    }
+
+    #quality-tag {
+        font-size: 4em;
+    }
+
+    #tag-line {
+        font-size: 1.4em;
+    }
+
+    .mid-buttons {
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .left-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .90em;
+    }
+
+    .right-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .90em;
+    }
+
+    .greeting {
+        padding-top: 15em;
+        padding-bottom: 15em;
+    }
+
+    .services {
+        margin-top: 4em;
+    }
+
+    .services-header {
+        font-size: 2em;
+    }
+
+    .service-card {
+        margin-bottom: 5em;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .greeting {
+        background-position: center;
+        padding-top: 21em;
+        padding-bottom: 21em;;
+    }
+
+    #quality-tag{
+        font-size: 3em;
+    }
+
+    #tag-line {
+        font-size: 1em;
+    }
+
+    .left-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .80em;
+    }
+
+    .right-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .80em;
+    }
+
+    .services-header {
+    margin-top: 3em;
+    }
+
+    .service-card {
+        width: 359px;
+    }
+
+    #owner-tag {
+        font-size: 1.5em;
+    }
+
+    .carousel-header {
+        font-size: 1.7em;
+    }
+
+    .cara-div {
+        width: 100%;
+    }
+
+}

@@ -97,11 +97,11 @@ main {
 .right-button {
     background-color: white;
     border-color: #2A4B73;
-    color:#2A4B73
+    color:#2A4B73;
 }
 
 .right-button:hover {
-    background-color: #f5f5f5;
+    background-color: #f7f7f7e1;
     color: #1D344F;
 }
 

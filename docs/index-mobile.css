@@ -48,18 +48,11 @@
     }
 
     #quality-tag {
-        text-align: center;
-        font-size: 0.9em;
-        letter-spacing: .2em;
-        color:#C74444;
+        font-size: 4em;
     }
 
     #tag-line {
-        margin-top: 0.5em;
-        text-align: center;
-        font-size: 1.5em;
-        letter-spacing: .05em;
-        color: #2A4B73;
+        font-size: 1.4em;
     }
 
     .mid-buttons {
@@ -68,30 +61,17 @@
     }
 
     .left-button {
-        background-color: #2A4B73;
         padding: .35em;
         padding-left: .7em;
         padding-right: .7em;
         font-size: .90em;
-    }
-
-    .left-button:hover {
-        background-color: #1D344F;
     }
 
     .right-button {
-        background-color: transparent;
-        border-color: #2A4B73;
-        color:#2A4B73;
         padding: .35em;
         padding-left: .7em;
         padding-right: .7em;
         font-size: .90em;
-    }
-
-    .right-button:hover {
-        background-color: #f5f5f5;
-        color: #1D344F;
     }
 
     .greeting {
@@ -115,16 +95,31 @@
 @media (max-width: 580px) {
 
     .greeting {
+        background-position: center;
         padding-top: 21em;
         padding-bottom: 21em;;
     }
 
     #quality-tag{
-        font-size: .8em;
+        font-size: 3em;
     }
 
     #tag-line {
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+
+    .left-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .80em;
+    }
+
+    .right-button {
+        padding: .35em;
+        padding-left: .7em;
+        padding-right: .7em;
+        font-size: .80em;
     }
 
     .services-header {

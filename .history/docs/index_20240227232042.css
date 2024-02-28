@@ -1,0 +1,222 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-img {
+    width: auto;
+}
+
+#cta {
+    text-align: center;
+}
+
+#banner-contact {
+    padding-top: 1.5em;
+}
+
+#banner-contact a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#banner-contact a:hover {
+    color: #1D344F;
+    text-decoration: underline;
+}
+
+.contact-icon {
+    padding-left: 2em;
+    padding-right: 0.5em;
+}
+
+.btn-primary {
+    background-color: #2A4B73;
+    border-color: #1D344F;
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.55em;
+}
+
+.btn-primary:hover {
+    background-color: #1D344F;
+    border-color: #2A4B73;
+}
+
+main {
+    margin-right: 12em;
+    margin-left: 12em;
+    overflow-x: hidden;
+    margin-top: 6em;
+}
+
+.greeting {
+    background-color: #1D344F;
+    background-image: url(../docs/assets/top-background-4.png);
+    background-repeat: none;
+    background-size: cover;
+    padding-top: 23em;
+    padding-bottom: 23em;
+}
+
+#quality-tag {
+    text-align: center;
+    font-size: 7em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px  #1D344F;
+}
+
+#tag-line {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: .05em;
+    color:white;
+    text-shadow: 2px 2px  #1D344F;
+}
+
+.mid-buttons {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.left-button {
+    background-color: #2A4B73;
+}
+
+.left-button:hover {
+    background-color: #1D344F;
+}
+
+.right-button {
+    background-color: white;
+    border-color: #2A4B73;
+    color:#2A4B73;
+}
+
+.right-button:hover {
+    background-color: #f7f7f7e1;
+    color: #1D344F;
+}
+
+.services-header {
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: .2em;
+    color: #2A4B73;
+}
+
+.services {
+    margin-top: 7em;
+}
+
+.service-card {
+    margin-bottom: 6em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.service-img {
+    background-color: #1D344F;
+}
+
+.service-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: #1D344F;
+}
+
+.service-text {
+    font-size: 1em;
+    color: black;
+}
+
+#owner-tag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: .1em;
+    color: #1D344F;
+}
+
+.cara-div {
+    width: 70%;
+}
+
+.carousel-header {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2.8em;
+    letter-spacing: 0.1em;
+    color: #2A4B73;
+}
+
+.carousel-section {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.carousel {
+    background-color: #1D344F;
+}
+
+#contact-header {
+    text-align: center;
+    margin-top: 2em;
+    color: #2A4B73;
+}
+
+#contact-content {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#contact-button {
+    background-color: #2A4B73;
+    color: white;
+}
+
+footer {
+    margin-top: 15em;
+    background-color: #f5f5f5
+}
+
+footer a {
+    color: #C74444;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #1D344F;
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#copyright-text {
+    text-align: center;
+}
+
+#dev-credit {
+    color: grey;
+}
+
+#pwwd-logo {
+    height: 30px;
+    width: 30px;
+}
